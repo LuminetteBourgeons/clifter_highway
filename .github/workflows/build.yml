@@ -18,7 +18,7 @@ jobs:
           python-version: 3.6
       - name: install requirements
         run: |
-          pythnon -m pip install --upgrade pip
+          python -m pip install --upgrade pip
           sudo pip install pygame
           pip install -e .[deploy]
       - name: install depedencies
