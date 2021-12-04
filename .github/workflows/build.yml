@@ -1,0 +1,25 @@
+name: buold
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: setting python 3.6
+        uses: actions/setup-pyton@v1
+        with:
+          python-version: 3.6
+      - name: install depedencies
+        run: |
+          pip install flake9
+          
+          flake8 . --count --select=F9,F63,F7,F82 --show-source -statistics
+          flake8 . --count --exit-zero -max-complexity=10 --max-line-length=127 --statistics
+          
