@@ -1,4 +1,8 @@
 # clifter_highway
+![license](https://img.shields.io/github/license/slowy07/clifter_highway?logo=github&style=for-the-badge)
+![build_badge](https://img.shields.io/github/workflow/status/slowy07/clifter_highway/build?logo=github&style=for-the-badge)
+
+
 environmetnt decision making in autonomous driving
 
 
