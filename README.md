@@ -29,3 +29,14 @@ environ = gym.make("merge-v0)
 ```
 
 ![mergeenv1](output/merge-env.gif)
+
+**roundabout**
+
+
+in this task, the ego vehicle if approaching a rounadbout with flowing traffic. ot follow its planned route automatically, but hash to handle lane changes and longitudinal control to pass the roundabout as fast as possible while avoiding collisions.
+
+```python
+environ = gym.make("roundabout-v0")
+```
+
+![roundaboutenv1](output/roundabout-env.gif)
