@@ -29,3 +29,26 @@ environ = gym.make("merge-v0)
 ```
 
 ![mergeenv1](output/merge-env.gif)
+
+
+**rounadbout**
+
+in this task, the ego vehicle if approacjing a roundabout with following traffic. it will follow its planned route automatically, but has to handle lane changes and longitudinal control to pass the roundabout as fast as possible while avoiding collision.
+
+```python
+environ = gym.make("roundabout-v0")
+```
+
+![roundaboutenv1](output/roundabout-env.gif)
+
+
+**parking**
+
+a goal conditioned continuous control task in which the ego vehicle must pak in a given space with the appropriate heading.
+
+```python
+environ = gym.make("padking-v0")
+```
+
+![parkingenv1](output/parking-env.gif)
+
