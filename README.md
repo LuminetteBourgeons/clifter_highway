@@ -45,8 +45,6 @@ in this task, the ego vehicle if approaching a rounadbout with flowing traffic. 
 ```python
 environ = gym.make("roundabout-v0")
 ```
-
-<<<<<<< HEAD
 ![roundaboutenv1](output/roundabout-env.gif)
 
 
@@ -60,6 +58,3 @@ environ = gym.make("padking-v0")
 
 ![parkingenv1](output/parking-env.gif)
 
-=======
-![roundaboutenv1](output/roundabout-env.gif)
->>>>>>> e5673fb5577062063e51e56436f79dc20fbeb832
