@@ -94,4 +94,4 @@ the agent then performs a value iteration to computer the corresponding optimal 
 
 the agents leverages a transition and reward models to perform a stochastic tree seach of the optimal trajectory. no particular assumption is required on state representation or transition model.
 
-![montelcarolenv](output/mtcs.gif)
+![montelcarolenv](output/mcts.gif)
