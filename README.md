@@ -62,3 +62,36 @@ intersection negotation task with dense traffic
 
 ![intersectionenv1](output/intersection-env.gif)
 
+
+**racetrack**
+
+a continuous control task involving lane-keeping and obstacle avoidance
+
+![racetrackenv1](output/racetrack-env.gif)
+
+
+## example agents
+
+**deep q network**
+
+![dqnenv1](output/dqn.gif)
+
+this model-free value-based reinforcement learning agent performs Q-learning with function approximation, using a neural network to represent the state-action value function Q.
+
+**deep deteministic policy gradient**
+
+![ddpgenv1](output/ddpg.gif)
+this model-free policy-base reinforcemetn learning agent is optimized directly by gradient ascent. it uses hindsight experience replay to efficiently learn how to solve a goal-conditional taks.
+
+**value iteration**
+
+![ttcvi](output/ttcvi.gif)
+the value iteration is only compatible with finite discrete MDPs, this simplified state representation describe the nearby traffic in terms of predicted time-to-collision on each lane of the road.the transition model is simplistic and assumes that each behicle will keep driving at a constan speed without changing the lines. this model bias can be source of mistakes.
+
+the agent then performs a value iteration to computer the corresponding optimal state-value function.
+
+**monte carlo tree search**
+
+the agents leverages a transition and reward models to perform a stochastic tree seach of the optimal trajectory. no particular assumption is required on state representation or transition model.
+
+![montelcarolenv](output/mtcs.gif)
