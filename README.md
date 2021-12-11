@@ -83,6 +83,8 @@ this model-free value-based reinforcement learning agent performs Q-learning wit
 ![ddpgenv1](output/ddpg.gif)
 this model-free policy-base reinforcemetn learning agent is optimized directly by gradient ascent. it uses hindsight experience replay to efficiently learn how to solve a goal-conditional taks.
 
+![deepfastdqnenv2](documentation/output_dat/highway_fast_dqn.gif)
+
 **value iteration**
 
 ![ttcvi](output/ttcvi.gif)
@@ -95,3 +97,8 @@ the agent then performs a value iteration to computer the corresponding optimal 
 the agents leverages a transition and reward models to perform a stochastic tree seach of the optimal trajectory. no particular assumption is required on state representation or transition model.
 
 ![montelcarolenv](output/mcts.gif)
+
+
+more information:
+- [observation](documentation/observation.md)
+- [actions](documentation/actions.md)
