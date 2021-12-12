@@ -12,7 +12,7 @@ environment decision making in autonomous driving
 
 [![google_colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1owsJCTwjg92_2J0WDE-f-s_8jNvN9lgb?usp=sharing)
 
-![multiagent_intersection](documentation/output_dat/intersection_muti_agent.gif)
+![multiagent_intersection](documentation/output_dat/intersection_multi_agent.gif)
 
 
 ## environment
