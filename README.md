@@ -108,3 +108,5 @@ the agents leverages a transition and reward models to perform a stochastic tree
 more information:
 - [observation](documentation/observation.md)
 - [actions](documentation/actions.md)
+- [rewards](documentation/rewards.md)
+- [multi agent setting](documentation/multi_agent_setting.md)
