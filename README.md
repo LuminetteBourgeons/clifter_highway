@@ -56,7 +56,7 @@ environ = gym.make("roundabout-v0")
 a goal conditioned continuous control task in which the ego vehicle must pak in a given space with the appropriate heading.
 
 ```python
-environ = gym.make("padking-v0")
+environ = gym.make("parking-v0")
 ```
 
 ![parkingenv1](output/parking-env.gif)
