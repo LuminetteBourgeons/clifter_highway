@@ -5,22 +5,24 @@
 ![pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
 [![sponsor_button](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://saweria.co/slowy07)
 
+Autonomous driving decision making tasks and environments
 
-environment decision making in autonomous driving
+</br>
 
-**test online**
+## Try it online!
 
 [![google_colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)](https://colab.research.google.com/drive/1owsJCTwjg92_2J0WDE-f-s_8jNvN9lgb?usp=sharing)
 
 ![multiagent_intersection](documentation/output_dat/intersection_multi_agent.gif)
 
+</br>
 
-## environment
+## Environments
 
-**highway**
+**Highway**
 
 
-in this task, the ego vehicle is driving in multilane highway populated with other vehicle. the agent's objective is to reach high speed whole avoiding collision with neighbouring vehicles. driving on the right side of the road is also rewarded
+In this task, the ego vehicle is driving in multilane highway populated with other vehicles. The agent's objective is to drive in high speed on the right side on the road while avoiding collision with other vehicles.
 ```python
 environ = gym.make("highway-v0")
 ```
@@ -28,10 +30,10 @@ environ = gym.make("highway-v0")
 ![ebv1](output/highway.gif)
 
 
-**merge**
+**Merge**
 
 
-in this task, the ego vehicle starts on a main highway but soon approaches a road junction with incoming vehicles on the access ramp. the agent's objectiove is now to maintain a higha speed while making room for the vehicles so that the can safety merge in the traffic.
+In this task, the ego vehicle approaches a junction with incoming vehicles on the access ramp. The agent's objective is now to maintain a high speed while leaving some space for other vehicles so that the ego vehicle can safely merge in the traffic.
 
 ```python
 environ = gym.make("merge-v0)
@@ -39,10 +41,10 @@ environ = gym.make("merge-v0)
 
 ![mergeenv1](output/merge-env.gif)
 
-**roundabout**
+**Roundabout**
 
 
-in this task, the ego vehicle if approaching a rounadbout with flowing traffic. ot follow its planned route automatically, but hash to handle lane changes and longitudinal control to pass the roundabout as fast as possible while avoiding collisions.
+In this task, the ego vehicle if approaching a rounadbout with flowing traffic. ot follow its planned route automatically, but hash to handle lane changes and longitudinal control to pass the roundabout as fast as possible while avoiding collisions.
 
 
 ```python
